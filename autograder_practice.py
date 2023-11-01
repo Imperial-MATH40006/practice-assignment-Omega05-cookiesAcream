@@ -13,7 +13,7 @@ def question0(_globals):
     myusernamefile.close()
     try:
         assert(not(my_username == 'Delete this text, and insert your short form user name'))
-    except:
+    except: 
         print('You don\'t seem to have changed the contents of the file.')
         print(f'\n0 out of 5 marks')
         return 0
